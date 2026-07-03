@@ -47,7 +47,7 @@ const translateFile = async (req, res) => {
 
     // READ FILE
 
-    const fileData = fs.readFileSync(req.file.path, "utf-8");
+    const fileData = req.file.buffer.toString("utf-8");
 
     const jsonData = JSON.parse(fileData);
 
@@ -100,9 +100,7 @@ const translateFile = async (req, res) => {
       );
     }
 
-    // DELETE UPLOADED FILE
-
-    fs.unlinkSync(req.file.path);
+    // DELETE UPLOADED FILE (No-op in memoryStorage)
 
     // JSON RESPONSE
 
