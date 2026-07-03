@@ -1,0 +1,14 @@
+{
+  "nav_dashboard": "Dashboard",
+  "nav_profile": "My Profile",
+  "nav_settings": "Settings",
+  "nav_logout": "Log Out",
+  "header_welcome": "Welcome back, Admin!",
+  "btn_search": "Search documents...",
+  "btn_save": "Save Changes",
+  "btn_cancel": "Cancel Action",
+  "stat_total_users": "Total Users Active",
+  "stat_revenue": "Monthly Revenue Growth",
+  "msg_error_generic": "Something went wrong. Please try again.",
+  "msg_success_update": "Settings updated successfully!"
+}
